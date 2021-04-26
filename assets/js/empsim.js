@@ -82,7 +82,7 @@ let typeOfEmploymentChart = new Chart(ctxtypeOfEmploymentChart, {
 
 function preload()
 {
-    cityGround = loadImage('https://drive.google.com/file/d/1EHn5RynkOK-m1zzlSeqNMW2v8V-OT6bi/view?usp=sharing')
+    cityGround = loadImage('assets/img/cityGround.png')
     cityRoad = loadImage('assets/img/cityRoad.png')
     cityBuildings = loadImage('assets/img/cityBuildings.png')
 }
