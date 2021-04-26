@@ -82,9 +82,9 @@ let typeOfEmploymentChart = new Chart(ctxtypeOfEmploymentChart, {
 
 function preload()
 {
-    cityGround = loadImage('assets/img/cityGround.png')
-    cityRoad = loadImage('assets/img/cityRoad.png')
-    cityBuildings = loadImage('assets/img/cityBuildings.png')
+    cityGround = loadImage('https://github.com/marc-bentoy/empsim/blob/main/assets/img/cityGround.png')
+    cityRoad = loadImage('https://github.com/marc-bentoy/empsim/blob/main/assets/img/cityRoad.png')
+    cityBuildings = loadImage('https://github.com/marc-bentoy/empsim/blob/main/assets/img/cityBuildings.png')
 }
 
 function setup()
