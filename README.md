@@ -31,7 +31,7 @@ This is the area where different sectors are located. Below are the different ty
 - Theatre - _Actress_
 
 ### Skill Requirements 
-Each sectors need a minimum requirements:
+Each sectors need a minimum requirements to be able to hire a person:
 
 | Person Property  | Teacher | Police | Actress | Engineer | Nurse |
 | ---------------- | ------- | ------ | ------- | -------- | ----- |
