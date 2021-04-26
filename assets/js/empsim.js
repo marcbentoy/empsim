@@ -128,8 +128,8 @@ function stopPersons()
 
 function clearCity()
 {
-    image(cityGround, 0, 0)
-    image(cityRoad, 0, 0)
+    image(cityGround, 0, 0, 750, 750)
+    image(cityRoad, 0, 0, 750, 750)
 }
 
 function draw()
@@ -206,7 +206,7 @@ function draw()
     typeOfEmploymentChart.data.datasets[0].data[4] = actressCount
     typeOfEmploymentChart.update()
 
-    image(cityBuildings, 0, 0)
+    image(cityBuildings, 0, 0, 750, 750)
 }
 
 class Person
