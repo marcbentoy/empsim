@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="icon"  type="image/png" sizes="16x16" href="assets/img/logo.png">
+        
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>EmpSim - Employment Simulation</title>
+    </head>
+    <body>
+        
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">EmpSim</a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="https://sites.google.com/view/marcbentoy/blogs" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="https://forms.gle/NVxcS2J9YNgZqMkx7" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <!-- bg -->
+                        <img src="assets/img/img5.png" alt="" data-speed="3" class="move">
+                        <!-- building 2 -->
+                        <img src="assets/img/img4.png" alt="" data-speed="2" class="move">
+                        <!-- building 1 -->
+                        <img src="assets/img/img3.png" alt="" data-speed="2" class="move">
+                        <!-- leaves -->
+                        <img src="assets/img/img2.png" alt="" data-speed="-2" class="move">
+                        <!-- person -->
+                        <img src="assets/img/img1.png" alt="" data-speed="1" class="move">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Employment<br>Simulation</h1>
+                        <p class="home__description">A website that generates random data and visualizing employment status.</p>
+                        <a href="./EmpSim.html" class="home__button">Simulate</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                
+                <div class="about-container">
+
+                    <div class="about-left">
+                        <img src="./assets/img/city about cover.png" class="about-cover">
+
+                        <a href="./EmpSim.html" class="home__button about-btn">Simulate Now</a>
+                    </div>
+
+                    <div class="about-texts">                    
+                        <div class="about-description">
+                            <p>The simulation randomly generates persons (graduate students) that wander around the city to find a job in different industrial sectors. Agencies will hire if the person met the required skills.</p>
+                        </div>
+                        
+                        <div class="person-properties">                        
+                            <h3>Person Properties</h3>
+                            <p>Every generated person has different properties:</p>
+                            <ul>
+                                <li>• GWA (General Weighted Average)</li>
+                                <li>• Logic</li>
+                                <li>• Creativeness</li>
+                                <li>• Physical Build</li>
+                                <li>• Perseverance</li>
+                            </ul>
+                        </div>
+
+                        <div class="agency-requirements">
+                            <h3>Agency Requirements</h3>
+                            <p>A Person can be accepted by the agency with a minimum of:</p>
+                            <img src="./assets/img/table.png" alt="">
+                        </div>
+                        
+                        
+                    </div>
+
+                    
+
+                </div>
+
+            </section>
+        </main>
+        
+        <!-- scripts -->
+        <script src="assets/js/gsap.min.js"></script>        
+        <script src="assets/js/home.js"></script>
+    </body>
+</html>
