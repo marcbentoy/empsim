@@ -84,7 +84,7 @@ function preload()
 {
     cityGround = loadImage('https://i.postimg.cc/1574sx4f/city-Ground.png')
     cityRoad = loadImage('https://i.postimg.cc/Zq4qLJMs/cityRoad.png')
-    cityBuildings = loadImage('https://i.postimg.cc/PJ8YYtCV/buildings.png')
+    cityBuildings = loadImage('https://i.postimg.cc/vBPCcwjN/city-Buildings.png')
 }
 
 function setup()
