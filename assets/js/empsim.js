@@ -108,6 +108,7 @@ function setup()
 
 function generatePersons()
 {
+    persons = []
     for (let i = 0; i < population; i++)
     {        
         persons.push(new Person())
