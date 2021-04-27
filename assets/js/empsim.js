@@ -307,12 +307,12 @@ class Person
         {
             fill('#FF6C6C')
             noStroke()
-            circle(this.x, this.y, 8)
+            circle(this.x, this.y, 13)
             return
         }
         fill('#6EBACC')
         noStroke()
-        circle(this.x, this.y, 8)
+        circle(this.x, this.y, 13)
     }
 
     moveToDestination()
